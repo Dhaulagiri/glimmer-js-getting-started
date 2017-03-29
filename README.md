@@ -1,7 +1,6 @@
 # glimmer-js-getting-started
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+A barebones glimer.js project which can be easily deployed to Heroku
 
 ## Prerequisites
 
@@ -14,7 +13,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:Dhaulagiri/glimmer-js-getting-started.git` this repository
 * `cd glimmer-js-getting-started`
 * `yarn`
 
@@ -28,7 +27,20 @@ You will need the following things properly installed on your computer.
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-## Further Reading / Useful Links
 
+## Deploying to Heroku
+
+```sh
+$ heroku create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz
+$ git push heroku master
+$ heroku open
+```
+or
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dhaulagiri/glimmer-js-getting-started)
+
+## Documentation
+
+* [Heroku Ember.js Buildpack](https://github.com/heroku/heroku-buildpack-emberjs)
 * [glimmerjs](http://github.com/tildeio/glimmer/)
 * [ember-cli](https://ember-cli.com/)
