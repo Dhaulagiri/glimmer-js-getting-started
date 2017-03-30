@@ -1,6 +1,6 @@
 # glimmer-js-getting-started
 
-A barebones glimer.js project which can be easily deployed to Heroku
+A barebones glimmer.js project which can be easily deployed to Heroku
 
 ## Prerequisites
 
