@@ -2,7 +2,7 @@
   "name": "glimmer.js Getting Started",
   "description": "A sample glimmer.js app deployed to Heroku",
   "repository": "https://github.com/Dhaulagiri/glimmer-js-getting-started",
-  "keywords": ["glimmer.js", "static"],
+  "keywords": ["glimmer.js", "static", "ember.js"],
   "buildpacks": [
     { "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz" }
   ]
